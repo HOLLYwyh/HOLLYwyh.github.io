@@ -1,7 +1,9 @@
 footer#footer.sidebar-translate
   if theme.footer.beian.enable
     .beian
-      a(rel='noopener' href='https://beian.miit.gov.cn/' target='_blank') #{theme.footer.beian.icp}
+      a(rel='noopener' href='https://beian.miit.gov.cn/' target='_blank') #{theme.footer.beian.icp}<br>
+      img(src = "https://pic3.zhimg.com/80/v2-d0289dc0a46fc5b15b3363ffa78cf6c7.png")
+      a(rel='noopener' href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode='+theme.footer.beian.police  target='_blank') #{theme.footer.beian.police}
 
   .copyright
     - var nowYear = date(Date.now(), "YYYY")

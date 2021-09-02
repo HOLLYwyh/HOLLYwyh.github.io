@@ -1285,6 +1285,7 @@ footer:
   beian:
     enable: true
     icp: 苏ICP备xxxxxxxx号
+    police: 1234567890000
 ```
 
 ### 运行时间
