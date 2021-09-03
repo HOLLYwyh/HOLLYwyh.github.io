@@ -2,8 +2,8 @@ title: Hexo
 subtitle: ''
 description: ''
 keywords: null
-author: John Doe
-language: en
+author: HOLLYwyh
+language: zh-CN
 timezone: ''
 url: http://example.com
 permalink: ':year/:month/:day/:title/'
@@ -66,3 +66,8 @@ deploy:
   branch: master
   message: Update Hexo Static Content
   repository: git@github.com:[hollywyh]/[hollywyh].github.io.git
+aplayer:
+  cdn: https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js
+  style_cdn: https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css
+  meting: true
+  meting_cdn: https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js

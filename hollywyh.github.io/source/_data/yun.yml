@@ -1,0 +1,11 @@
+wordcloud:
+  enable: true
+
+
+# 字数统计
+wordcount:
+  enable: true
+  count: true
+  time: true
+
+
