@@ -29,8 +29,8 @@ github_discussions:
 # extend: https://github.com/DesertsP/Valine-Admin
 valine:
   enable: true
-  appId: zTUMTczctcteY7TWIy2cW5ls-gzGzoHsz # your leancloud application appid
-  appKey: LaMsJEcWhe2dFToeJj1YG4rI # your leancloud application appkey
+  appId: Fp5EOXaMTopxr7zMsQnCzF2g-MdYXbMMI # your leancloud application appid
+  appKey: VjbgoCWrkxt1tC0JU48zVyUb # your leancloud application appkey
   placeholder: Just go go # comment box placeholder
   avatar:  # gravatar style
    meta:
