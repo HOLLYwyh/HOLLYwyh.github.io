@@ -2,7 +2,7 @@ mode: auto
 
 avatar:
   enable: true
-  url: /images/avatar.jpg
+  url: https://bolg-hollywyh.oss-cn-shanghai.aliyuncs.com/magic_shroom.png
   rounded: true
   opacity: 1
   mickey_mouse: true
@@ -29,6 +29,7 @@ reward:
       icon: ri:wechat-pay-line
 
 comment:
+  enable: true
   candidates:
     - waline
     # - giscus
@@ -81,7 +82,7 @@ footer:
     enable: true
     prefix: 本博客已萌萌哒地运行
     suffix: (●'◡'●)
-    start_time: '2023-00-24T16:00:00'
+    start_time: '2023-09-24T16:00:00'
 
 engine_search:
   enable: false
