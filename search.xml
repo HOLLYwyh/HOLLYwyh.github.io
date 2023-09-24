@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>xxx</title>
+    <url>/2023/09/24/hello-world/</url>
+    <content><![CDATA[<pre class="language-c++" data-language="c++"><code class="language-c++">int main()&#123;
+    int a &#x3D; 2;
+    int b &#x3D; 1;
+    int c &#x3D; 1+2;
+    return 0;
+&#125;</code></pre>
+]]></content>
+  </entry>
+</search>
