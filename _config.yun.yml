@@ -1,0 +1,223 @@
+mode: auto
+
+avatar:
+  enable: true
+  url: /images/avatar.jpg
+  rounded: true
+  opacity: 1
+  mickey_mouse: true
+  status:
+    enable: true
+    emoji: 😭
+    message: 不想上学
+
+reward:
+  enable: true
+  comment: 如果您认为文章还不错的话，欢迎打赏支持我
+  methods:
+    - name: 支付宝
+      path: https://bolg-hollywyh.oss-cn-shanghai.aliyuncs.com/ali-pay.png
+      color: '#00A3EE'
+      icon: ri:alipay-line
+    - name: QQ 支付
+      path: https://bolg-hollywyh.oss-cn-shanghai.aliyuncs.com/QQ-pay.png
+      color: '#12B7F5'
+      icon: ri:qq-line
+    - name: 微信支付
+      path: https://bolg-hollywyh.oss-cn-shanghai.aliyuncs.com/weChat-pay.png
+      color: '#2DC100'
+      icon: ri:wechat-pay-line
+
+comment:
+  candidates:
+    - waline
+    # - giscus
+  tips:
+    - 如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/HOLLYwyh/hollywyh.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。
+
+waline:
+  enable: true
+  serverURL: https://waline.yunyoujun.cn
+  visitor: true
+  comment: true
+  emoji:
+    - https://fastly.jsdelivr.net/gh/walinejs/emojis@latest/bilibili/
+    - https://fastly.jsdelivr.net/gh/walinejs/emojis@latest/weibo/
+    - https://fastly.jsdelivr.net/gh/walinejs/emojis@latest/qq/
+  locale:
+    placeholder: 填写邮箱，可以收到回复通知哦～
+  requiredMeta: [nick]
+
+github_issues:
+  enable: false
+
+github_discussions:
+  enable: false
+
+disqusjs:
+  enable: false
+  shortname: yunyoujun
+  apikey: ouoGQCaamOKdJgyZU5DKcpFnRIg3SNzvk0nwygPtlcTRJuE68c8igvrZGW4wAJoN
+
+# https://github.com/laymonage/giscus
+giscus:
+  enable: false
+  repo: YunYouJun/yunyoujun.github.io
+  repo-id:
+  category-id:
+  mapping: pathname
+  reactions-enabled: 1
+  emit-metadata: 0
+  theme: light
+
+footer:
+  since: 2023
+  icon:
+    url: #
+    title: 魔术菇的赞助者们
+  powered: 
+    enable: true
+  live_time:
+    enable: true
+    prefix: 本博客已萌萌哒地运行
+    suffix: (●'◡'●)
+    start_time: '2023-00-24T16:00:00'
+
+engine_search:
+  enable: false
+
+local_search:
+  enable: true
+
+
+
+google_analytics:
+  enable: true
+  id: G-1LL0D86CY9
+
+google_adsense:
+  enable: true
+  client: ca-pub-2245427233262012
+
+post_edit:
+  enable: true
+  url: https://github.com/YunYouJun/yunyoujun.github.io/tree/hexo/source/
+
+albums:
+  enable: false
+
+girls:
+  enable: false
+
+tags:
+
+categories:
+
+pages:
+  # - name: 我的小伙伴们
+  #   url: /links/
+  #   icon: ri:genderless-line
+  #   color: dodgerblue
+
+menu:
+  custom:
+    title: 留言板
+    path: /about/#comment
+    icon: ri:clipboard-line
+
+cursor:
+  enable: true
+
+baidu_push: true
+
+google_tagmanager:
+  enable: true
+  id: GTM-M9KWR9L
+
+
+say:
+  api: https://el-bot-api.vercel.app/api/words/young
+  hitokoto:
+    enable: true
+
+social:
+  - name: QQ - 魔术菇
+    link: 
+    icon: ri:qq-line
+    color: '#12B7F5'
+  - name: GitHub
+    link: https://github.com/HOLLYwyh
+    icon: ri:github-line
+    color: '#6e5494'
+  - name: 微博
+    link: https://weibo.com/u/7525742888
+    icon: ri:weibo-line
+    color: '#E6162D'
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=419123669
+    icon: ri:netease-cloud-music-line
+    color: '#C20C0C'
+  - name: 知乎
+    link: https://www.zhihu.com/people/24-37-98-18-39
+    icon: ri:zhihu-line
+    color: '#0084FF'
+  - name: 哔哩哔哩
+    link: https://space.bilibili.com/3493095190563240?spm_id_from=333.1007.0.0
+    icon: ri:bilibili-line
+    color: '#FF8EB3'
+  - name: 微信公众号（准备中）
+    link: 
+    icon: ri:wechat-2-line
+    color: '#1AAD19'
+  - name: E-Mail
+    link: mailto:hollywyh01@gmail.com
+    icon: ri:mail-line
+    color: '#8E71C1'
+# pjax:
+#   enable: true
+
+# added by myself
+favicon: /favicon.ico
+
+banner:
+  enable: true
+  title: 魔术菇m的小站
+  border: true
+  cloud:
+    enable: true
+    color: white
+  go_down:
+    enable: true
+    icon: ri:arrow-down-s-line
+
+notice:
+  enable: true
+  content: 欢迎来我的小站玩~
+
+fireworks:
+  enable: true
+  colors:
+    - '102, 167, 221'
+    - '62, 131, 225'
+    - '33, 78, 194'
+
+medium_zoom: true
+
+creative_commons:
+  license: by-nc-sa
+  post: true
+  language: deed.zh
+  clipboard: false
+
+
+mourn:
+  enable: true
+  days:
+    - 7-7
+    - 9-18
+    - 12-13
+
+
+wordcloud:
+  enable: false
+
