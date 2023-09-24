@@ -8,6 +8,7 @@ post_meta:
   tags: true
 sticky: 100
 ---
+大家好，我要进行一次测试，啊哈哈哈
 
 ```c++
 int main(){
