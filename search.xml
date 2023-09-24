@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>xxx</title>
-    <url>/2023/09/23/hello-world/</url>
+    <url>/2023/09/24/hello-world/</url>
     <content><![CDATA[<pre class="language-c++" data-language="c++"><code class="language-c++">int main()&#123;
     int a &#x3D; 2;
     int b &#x3D; 1;
