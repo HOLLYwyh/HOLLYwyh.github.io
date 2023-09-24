@@ -3,7 +3,8 @@
   <entry>
     <title>xxx</title>
     <url>/2023/09/24/hello-world/</url>
-    <content><![CDATA[<pre class="language-c++" data-language="c++"><code class="language-c++">int main()&#123;
+    <content><![CDATA[<p>大家好，我要进行一次测试，啊哈哈哈</p>
+<pre class="language-c++" data-language="c++"><code class="language-c++">int main()&#123;
     int a &#x3D; 2;
     int b &#x3D; 1;
     int c &#x3D; 1+2;
