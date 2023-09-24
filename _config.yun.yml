@@ -91,15 +91,6 @@ local_search:
   enable: true
 
 
-
-google_analytics:
-  enable: true
-  id: G-MRS8749M8W
-
-google_adsense:
-  enable: false
-  client: ca-pub-2245427233262012
-
 post_edit:
   enable: true
   url: https://github.com/YunYouJun/yunyoujun.github.io/tree/hexo/source/
@@ -128,13 +119,6 @@ menu:
 
 cursor:
   enable: true
-
-baidu_push: true
-
-google_tagmanager:
-  enable: true
-  id: GTM-M9KWR9L
-
 
 say:
   api: https://el-bot-api.vercel.app/api/words/young
@@ -220,7 +204,9 @@ mourn:
 
 
 wordcloud:
-  enable: false
+  enable: true
+  height: 350
+
 
 wordcount:
   enable: true
