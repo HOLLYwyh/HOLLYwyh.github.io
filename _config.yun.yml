@@ -94,10 +94,10 @@ local_search:
 
 google_analytics:
   enable: true
-  id: G-1LL0D86CY9
+  id: G-MRS8749M8W
 
 google_adsense:
-  enable: true
+  enable: false
   client: ca-pub-2245427233262012
 
 post_edit:
