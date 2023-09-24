@@ -222,3 +222,7 @@ mourn:
 wordcloud:
   enable: false
 
+wordcount:
+  enable: true
+  count: true
+  time: true

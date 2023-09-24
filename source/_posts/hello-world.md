@@ -6,6 +6,7 @@ post_meta:
   updated_at: true
   categories: true
   tags: true
+sticky: 100
 ---
 
 ```c++
