@@ -38,7 +38,7 @@ comment:
 
 waline:
   enable: true
-  serverURL: https://waline-comment-kp7v3d3ke-hollywyh.vercel.app/
+  serverURL: https://waline-comment-m530w3mxy-hollywyh.vercel.app/
   visitor: true
   comment: true
   emoji:
