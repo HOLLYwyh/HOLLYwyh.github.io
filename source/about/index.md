@@ -1,7 +1,6 @@
 ---
 title: 关于我
 date: 2023-09-26 17:00:00
-type: about
 reward: true
 icon: icon-cloud-line
 iconify: true
